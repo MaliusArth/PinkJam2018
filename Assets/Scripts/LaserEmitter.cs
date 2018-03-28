@@ -20,6 +20,8 @@ public class LaserEmitter : MonoBehaviour
 	private static float m_raycastDistance;
 	//private bool m_isDirty;
 
+	private Camera myCamera;
+
 	void Awake()
 	{
 		//m_isActive = false;
@@ -33,10 +35,15 @@ public class LaserEmitter : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		float a2 = Mathf.Pow(Screen.width - 32.0f * 2.0f, 2.0f); // 382 -> 145924
-		float b2 = Mathf.Pow(Screen.height - 32.0f * 2.0f, 2.0f); // 215 -> 46225
+		myCamera = Camera.main; //use camera width and height for calculation of ray length
+		float a2 = Mathf.Pow(myCamera.pixelWidth, 2.0f); // 382 -> 145924
+		float b2 = Mathf.Pow(myCamera.pixelHeight, 2.0f); // 215 -> 46225
 		m_raycastDistance = Mathf.Sqrt(a2 + b2); // 192149
-		Debug.Log("screen width: " + Screen.width + " height: " + Screen.height);
+		Vector3 UnitsPerPixelX = myCamera.ScreenToWorldPoint(Vector3.zero);
+		Vector3 UnitsPerPixelY = myCamera.ScreenToWorldPoint(Vector3.right);
+		float UnitsPerPixel = Vector3.Distance(UnitsPerPixelX, UnitsPerPixelY);
+		m_raycastDistance *= UnitsPerPixel; //pixel to units
+		//Debug.Log("screen width: " + Screen.width + " height: " + Screen.height);
 		Debug.Log("onGUI: raycast distance: " + m_raycastDistance);
 	}
 
