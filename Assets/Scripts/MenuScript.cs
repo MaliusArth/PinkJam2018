@@ -11,6 +11,7 @@ public class MenuScript : MonoBehaviour {
     public GameObject ContinueButton;
     public GameObject QuitButton;
     public GameObject Slider;
+    
 
     void Start()
     {
@@ -33,6 +34,8 @@ public class MenuScript : MonoBehaviour {
         ContinueButton.SetActive(true);
         QuitButton.SetActive(true);
         Slider.SetActive(true);
+        
+
 
     }
     void TaskOnClick1()

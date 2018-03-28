@@ -14,7 +14,7 @@ public class MusicManager : MonoBehaviour {
     {
         //Initiate the Slider value to half way
         //MySliderValue = 0.7f;
-        VolumeSlider.value = 0.7f;
+        VolumeSlider.value = 0.3f;
         //Fetch the AudioSource from the GameObject
         MyAudioSource = GetComponent<AudioSource>();
         //Play the AudioClip attached to the AudioSource on startup
