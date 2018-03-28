@@ -6,8 +6,6 @@ public class RotateObject : MonoBehaviour {
 
     public static Transform selected;
 
-    public Camera camera;
-
     void Update() {
         if(Input.GetMouseButtonDown(0)) {
             
@@ -15,8 +13,13 @@ public class RotateObject : MonoBehaviour {
 
             RaycastHit2D hit = Physics2D.Raycast(origin, Vector2.zero, 0f);
 
-            if(hit) {
-                selected = hit.transform;
+            if (hit)
+            {
+
+                if (hit.collider.tag != "MainCamera")
+                {
+                    selected = hit.transform;
+                }
             }
 
         }

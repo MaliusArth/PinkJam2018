@@ -166,7 +166,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300012, guid: 1a2c9c02dbff91743983fb5245d78e88, type: 3}
+  m_Sprite: {fileID: 21300014, guid: f3bd2bcec605ce84e8f4ef20a5dfe4d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 122064549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b49379f21f2696e4aa50cf64c307eed0, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c28c5412a2418246a6ba57f25b2c534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &122064553
@@ -233,10 +233,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 122064549}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dae8cee3a633b2448859c2ad60f2323c, type: 3}
+  m_Script: {fileID: 11500000, guid: 05400e35b2c57034386dba72e2f9cf40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 622432322}
 --- !u!1 &404792543
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +289,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: 1a2c9c02dbff91743983fb5245d78e88, type: 3}
+  m_Sprite: {fileID: 21300008, guid: f3bd2bcec605ce84e8f4ef20a5dfe4d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -321,7 +320,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 404792543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b49379f21f2696e4aa50cf64c307eed0, type: 3}
+  m_Script: {fileID: 11500000, guid: 05400e35b2c57034386dba72e2f9cf40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &404792547
@@ -357,10 +356,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 404792543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dae8cee3a633b2448859c2ad60f2323c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c28c5412a2418246a6ba57f25b2c534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 622432322}
 --- !u!1 &622432319
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,7 +608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -31.5, y: -26.1}
+  m_AnchoredPosition: {x: -51.6, y: -44.1}
   m_SizeDelta: {x: 31.06, y: 31.06}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1184810850
@@ -893,7 +891,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6383583bf10063a4899d78f3d6992cff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 10eaa01f634fa4c4485bf47031ee5573, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -910,8 +908,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1706931228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.1}
-  m_LocalScale: {x: 0.9, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9028953, y: 0.9028953, z: 0.9028953}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -969,7 +967,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: 1a2c9c02dbff91743983fb5245d78e88, type: 3}
+  m_Sprite: {fileID: 21300016, guid: f3bd2bcec605ce84e8f4ef20a5dfe4d6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1000,7 +998,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1927412175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b49379f21f2696e4aa50cf64c307eed0, type: 3}
+  m_Script: {fileID: 11500000, guid: 05400e35b2c57034386dba72e2f9cf40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &1927412179
@@ -1036,7 +1034,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1927412175}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dae8cee3a633b2448859c2ad60f2323c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4c28c5412a2418246a6ba57f25b2c534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 622432322}
